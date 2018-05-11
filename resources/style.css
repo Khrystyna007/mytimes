@@ -4,12 +4,15 @@ header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: 1px black solid;
+  border-bottom: 1px solid black;
   align-items: center;
   width: 100%;
   height: 80px;
   position: fixed;
-  z-index: 2;
+  top: 0;
+  z-index: 1;
+  background-color: white;
+  overflow: scroll;
 }
 .logo{
   color: MediumAquamarine;
@@ -30,4 +33,80 @@ padding: 10px;
 }
 header nav {
   padding-right: 40px;
+}
+/* Content */
+
+.main-container{
+  position: relative;
+  top: 100px;
+  display: flex;
+
+}
+/* Stories */
+.story-one{
+  border: 1px solid black;
+
+}
+.story-two{
+  border: 1px solid black;
+width: 300px;
+}
+.story-three{
+    border: 1px solid black;
+    width: 300px;
+}
+.story-four{
+    border: 1px solid black;
+}
+.story-five{
+    border: 1px solid black;
+}
+/* Columns */
+
+.column-one{
+  border: 1px solid black;
+  width: 630px;
+
+}
+.column-two{
+  border: 1px solid black;
+  width: 300px;
+
+}
+.column-three{
+  border: 1px solid black;
+  width: 240px;
+
+}
+.title-photo1, .title-photo2, .title-photo3{
+  border: 1px solid black;
+}
+.title-photo1{
+ background-image: url("./img-story-main.png");
+ height: 300px;
+}
+.title-photo1 span{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.title-photo2{
+  background-image: url("./img-story-2.png");
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.title-photo3{
+  background-image: url("./img-story-3.png");
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.title-photo4{
+  background-image: url("./img-story-1.png");
+  background-repeat: no-repeat;
+  height: 300px;
+}
+.story2-3{
+  display: flex;
+  flex-direction: row;
 }
