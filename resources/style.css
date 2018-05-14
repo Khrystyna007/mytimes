@@ -37,7 +37,7 @@ header nav {
 /* Content */
 
 .main-container{
-  position: relative;
+  
   top: 100px;
   display: flex;
   justify-content: space-around;
@@ -154,12 +154,11 @@ h3{
   flex-direction: column;
 }
 /* Footer */
+
 footer{
   height: 325px;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
-
-
 }
