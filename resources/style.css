@@ -73,7 +73,6 @@ width: 300px;
 .column-two{
   border: 1px solid black;
   width: 300px;
-
 }
 
 .title-photo1, .title-photo2, .title-photo3, .title-photo4{
@@ -131,18 +130,19 @@ p{
   font-size: 17px;
   color: black;
 }
+/* Column 3 */
 ul {
   list-style-type: none;
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
-  border: 1px solid red;
+  padding-left: 0;
+
 }
 li{
   padding: 7px;
   border-bottom: 1px solid black;
-
 }
 h3{
   text-align: center;
@@ -152,6 +152,14 @@ h3{
   width: 240px;
   display: flex;
   flex-direction: column;
+}
+/* Footer */
+footer{
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
 
 
 }
